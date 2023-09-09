@@ -275,6 +275,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@itos-finance/foundry-template@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@itos-finance/foundry-template@workspace:."
+  dependencies:
+    "@commitlint/cli": ^17.2.0
+    "@commitlint/config-conventional": ^17.2.0
+    commitizen: ^4.2.5
+    cz-conventional-changelog: ^3.3.0
+    husky: ^8.0.2
+    lint-staged: ^13.0.3
+    prettier: ^2.7.1
+    prettier-plugin-solidity: ^1.0.0
+    rimraf: ^3.0.2
+    solhint: ^3.3.7
+    solhint-plugin-prettier: ^0.0.5
+  languageName: unknown
+  linkType: soft
+
 "@jridgewell/resolve-uri@npm:^3.0.3":
   version: 3.0.8
   resolution: "@jridgewell/resolve-uri@npm:3.0.8"
@@ -298,24 +316,6 @@ __metadata:
   checksum: d89597752fd88d3f3480845691a05a44bd21faac18e2185b6f436c3b0fd0c5a859fbbd9aaa92050c4052caf325ad3e10e2e1d1b64327517471b7d51babc0ddef
   languageName: node
   linkType: hard
-
-"@prb/foundry-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@prb/foundry-template@workspace:."
-  dependencies:
-    "@commitlint/cli": ^17.2.0
-    "@commitlint/config-conventional": ^17.2.0
-    commitizen: ^4.2.5
-    cz-conventional-changelog: ^3.3.0
-    husky: ^8.0.2
-    lint-staged: ^13.0.3
-    prettier: ^2.7.1
-    prettier-plugin-solidity: ^1.0.0
-    rimraf: ^3.0.2
-    solhint: ^3.3.7
-    solhint-plugin-prettier: ^0.0.5
-  languageName: unknown
-  linkType: soft
 
 "@solidity-parser/parser@npm:^0.14.5":
   version: 0.14.5
@@ -3114,15 +3114,15 @@ __metadata:
   linkType: hard
 
 "semver@npm:2 || 3 || 4 || 5, semver@npm:^5.5.0, semver@npm:^5.5.1":
-  version: 5.7.1
-  resolution: "semver@npm:5.7.1"
+  version: 5.7.2
+  resolution: "semver@npm:5.7.2"
   bin:
-    semver: ./bin/semver
-  checksum: 57fd0acfd0bac382ee87cd52cd0aaa5af086a7dc8d60379dfe65fea491fb2489b6016400813930ecd61fd0952dae75c115287a1b16c234b1550887117744dfaf
+    semver: bin/semver
+  checksum: fb4ab5e0dd1c22ce0c937ea390b4a822147a9c53dbd2a9a0132f12fe382902beef4fbf12cf51bb955248d8d15874ce8cd89532569756384f994309825f10b686
   languageName: node
   linkType: hard
 
-"semver@npm:7.3.7, semver@npm:^7.3.4":
+"semver@npm:7.3.7":
   version: 7.3.7
   resolution: "semver@npm:7.3.7"
   dependencies:
@@ -3142,7 +3142,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.8":
+"semver@npm:^7.3.4, semver@npm:^7.3.8":
   version: 7.3.8
   resolution: "semver@npm:7.3.8"
   dependencies:
