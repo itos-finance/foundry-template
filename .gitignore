@@ -8,6 +8,7 @@
 **/cache
 **/node_modules
 **/out
+bin/*
 
 # files
 *.env
@@ -21,3 +22,5 @@ yarn-error.log*
 !/broadcast
 /broadcast/*
 /broadcast/*/31337/
+
+**/__pycache__
