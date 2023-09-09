@@ -40,9 +40,5 @@
     "postinstall": "husky install",
     "prettier:check": "prettier --check \"**/*.{json,md,sol,yml}\"",
     "prettier:write": "prettier --write \"**/*.{json,md,sol,yml}\""
-  },
-  "dependencies": {
-    "minimist": "^1.2.8",
-    "semver": "^7.5.4"
   }
 }
