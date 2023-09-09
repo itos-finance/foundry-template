@@ -28,7 +28,7 @@
     "solidity",
     "template"
   ],
-  "packageManager": "yarn@3.2.4",
+  "packageManager": "yarn@3.6.3",
   "private": true,
   "resolutions": {
     "solhint/@solidity-parser/parser": "^0.14.5"
